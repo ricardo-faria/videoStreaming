@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=videoName%></title>
+  </head>
+
+  <body>
+    <style>
+        body {
+            margin: 20px 50px;
+            max-width: 80%;
+            line-height: 1.6;
+            font-size: 18px;
+            font-family: "Courier New", Courier, monospace;
+            color: #444;
+        }
+        video {
+            width: 100%;
+        }
+    </style>
+    <video id="videoPlayer"  controls autoplay>
+      <source src="/videoStreaming/<%=video%>" type="video/mp4" />
+    </video>
+    <br>
+    <i><%=videoName%></i>
+  </body>
+</html>
