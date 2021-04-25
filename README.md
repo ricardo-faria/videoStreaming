@@ -11,4 +11,4 @@ then rename de file `.env.example` to `.env`, and configure the folder to search
 after this, run:
 >npm start
 
-so, access `localhost:8000` and have some fun!
+so, access the computer's ip on port 8000 and have some fun!
